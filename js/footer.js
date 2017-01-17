@@ -9,7 +9,7 @@ export default React.createClass({
     return (
       <section>
         <footer>
-          <h1>Test</h1>
+          <h1> The End </h1>
         </footer>
       </section>
     )
