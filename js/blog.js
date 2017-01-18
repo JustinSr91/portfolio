@@ -5,12 +5,12 @@ export default React.createClass({
   render() {
     return (
       <section>
-        <heading> Blog </heading>
-          <h1> What is the difference between classes and IDs in CSS? </h1>
-            <p> A class selector in CSS selects elements with specific attributes. Classes are preceded by a period.
+        <heading className="blogHeading"> Blog Update </heading>
+          <img src="css.jpg" className="photo"></img>
+          <h1 className="blogTitle"> What is the difference between classes and IDs in CSS? </h1>
+            <p className="blogDate"> Jan. 17th, 2017 </p>
+            <p className="blogContent"> A class selector in CSS selects elements with specific attributes. Classes are preceded by a period.
                 An ID selector uses the ID attribute of an HTML element, and is specific and unique to only one element. A hash character precedes the ID.
-
-                What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 
                 In CSS, resetting removes all default styling from browser and presents a blank canvas. Normalizing is the use of the base stylesheet, and will reset styling back to standard starting point across all browsers.
 

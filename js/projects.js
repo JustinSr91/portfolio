@@ -5,7 +5,7 @@ export default React.createClass({
   render() {
     return (
       <section>
-        <h1> My Blog </h1>
+        <h1 className="projectsHeading"> Latest Projects </h1>
       </section>
     )
   }

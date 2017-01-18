@@ -5,8 +5,8 @@ export default React.createClass({
 
   render () {
     return (
-      <header>
-        <h1> Portfolio </h1>
+      <header className="header">
+        <h1 className="headerText"> Portfolio </h1>
       </header>
     )
   }
