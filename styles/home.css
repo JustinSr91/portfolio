@@ -18,8 +18,10 @@
 }
 
 .blogHeading {
+  display: inline-block;
   font-size: 20px;
   font-weight: 800;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -51,6 +53,12 @@
   color: blue;
 }
 
+.navLink {
+  color: blue;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
 .photo {
   display: block;
   margin: 0 auto 0 auto;
@@ -68,7 +76,8 @@
 }
 
 .projectsHeading {
-
+  font-size: 20px;
+  margin-top: 40px;
 }
 
 .quickInfo {
