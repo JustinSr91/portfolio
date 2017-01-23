@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-
+console.log("github test");
 export default React.createClass({
   render(){
 
