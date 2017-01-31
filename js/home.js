@@ -5,15 +5,27 @@ export default React.createClass({
   render(){
 
     return(
+      // 1st container w/headshot and tagline
+      <section className="headshot__section">
+        <p className="aboutContent"> a creative mind focused on front end development </p>
+        <img src="/styles/Headshot1.jpg" className="photo"></img>
+
       <section>
-          <img src="/styles/photo.jpg" className="photo"></img>
-        <h1 className="quickInfo"> Quick Info </h1>
-          <li className="infoList"> Justin Strayhorn Sr.</li>
-          <li className="infoList"> From San Antonio, Texas </li>
+        <div className="infoDiv1">
+          <li className="infoList"> Justin - Junior Developer </li>
+          <li className="infoList"> Graduated from The Iron Yard - San Antonio </li>
+          <li className="infoList"> Front End Engineering program
+          </li>
+        </div>
+        <div className="infoDiv2">
           <a href="https://github.com/JustinSr91" className="link" target="_blank">
-            <li className="infoList"> Link to My GitHub </li>
+            <li className="infoList"> GitHub Repo </li>
           </a>
-          <p className="aboutContent"> My name is Justin and I am from Cincinnati, OH. I have lived in San Antonio for the last 5 years and have been in various roles with various companies. I have a background in Insurance, Oil and Gas, and Military, but I recently have decided to change careers (Software Development) where I know I can excel. I have a wife and 4 children who are my motivation to be the best version of myself that I can. I am currently hoping to obtain a Junior Developer position which will give me the experience I need to become highly skilled.</p>
+          <a href="https://www.linkedin.com/in/justin-strayhorn-51263799" className="link" target="_blank">
+            <li className="infoList"> LinkedIn Profile </li>
+          </a>
+        </div>
+      </section>
       </section>
     )
     }
